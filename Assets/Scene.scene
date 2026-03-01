@@ -6,7 +6,6 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> a7b57aa0-2f37-4f65-9da5-64af6d55145f
     - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
-    - !<own> 579b4958-05f7-464c-88c1-426992630f27
     - !<own> 84f57349-3153-41d1-b29f-eea9fe4233a4
     - !<own> 748f62df-ba47-4287-8354-5ba3fa46a9dc
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
@@ -5827,19 +5826,6 @@
   ScriptTypes:
     "":
       {}
-- !<VFXComponent/540c1925-5f89-4d7b-add2-d5d7b76de17d>
-  PrefabRemaps:
-    []
-  Name: VFX Component
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  VFXAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
 - !<RenderMeshVisual/5445d6be-bff3-4638-9af2-c6bf5051e034>
   PrefabRemaps:
     []
@@ -5900,22 +5886,6 @@
     - !<own> 6a71ebfa-2e26-4918-b0c3-35f023722a47
   Components:
     []
-- !<SceneObject/579b4958-05f7-464c-88c1-426992630f27>
-  PrefabRemaps:
-    - 540c1925-5f89-4d7b-add2-d5d7b76de17d: 91ae5a14-9ddd-4b05-5e36-fcf6b5cae9f5
-    - 579b4958-05f7-464c-88c1-426992630f27: de55f798-9949-438d-5b01-aa0101b8e502
-  Name: BokehVFX
-  Enabled: false
-  Layers: 1048576
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 540c1925-5f89-4d7b-add2-d5d7b76de17d
 - !<SceneObject/5888bad7-86d8-4fc9-b41f-6cd678d796ac>
   PrefabRemaps:
     []
@@ -6726,12 +6696,12 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 379abec3-e426-45ee-8211-e35f33a72d0f
-  Text: Accupunture
+  Text: Acupressure
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 30
+  FontSize: 26
   ExtrusionDepth: 0.000000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11368,7 +11338,7 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 30
+  FontSize: 27
   ExtrusionDepth: 0.000000
   ExtrudeDirection: Both
   Font: !<reference> 00000000-0000-0000-0000-000000000000
@@ -13741,7 +13711,7 @@
 - !<SceneObject/d7a3cd9f-f908-453f-840c-2d176122f25e>
   PrefabRemaps:
     []
-  Name: Accupunture
+  Name: Acupressure
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -13934,7 +13904,7 @@
     {}
   ScriptInputs:
     "":
-      apiToken: 5f667ee0-744d-45c5-b2da-2c15536e2127
+      apiToken: INSERT_YOUR_KEY
   ScriptTypes:
     "":
       {}
