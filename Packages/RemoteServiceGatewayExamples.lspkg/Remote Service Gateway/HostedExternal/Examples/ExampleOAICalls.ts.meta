@@ -1,0 +1,95 @@
+- !<AssetImportMetadata/7b8e0bcf-6586-4429-87e1-c0468b7c95b4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e148762d-e36a-44fc-b851-47658c6e3a80
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e148762d-e36a-44fc-b851-47658c6e3a80
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 153e3ac9-1f35-4028-9940-924466b4c92c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/153e3ac9-1f35-4028-9940-924466b4c92c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3f4190e1-5ec6-40d4-9ef0-37a1de5f337e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    acupressureButton: false
+    breathingButton: false
+    crownChakraButton: false
+    heartChakraButton: false
+    image: false
+    rootChakraButton: false
+    sacralChakraButton: false
+    solarPlexusChakraButton: false
+    spinner: false
+    startPracticeOnTap: false
+    textDisplay: false
+    thirdEyeChakraButton: false
+    throatChakraButton: false
+    voiceInstructions: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - textDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      voiceInstructions: "Calm, soothing, gentle zen meditation voice. Speak slowly with peaceful pauses."
+      breathingButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      acupressureButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startPracticeOnTap: false
+      rootChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sacralChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      solarPlexusChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      heartChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      throatChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thirdEyeChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      crownChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Display"}'
+    - // @input Component.Text textDisplay
+    - // @input Component.Image image
+    - // @input SceneObject spinner
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Voice Settings"}'
+    - '// @input string voiceInstructions = "Wise zen master or therapist tone. Calm, grounding, deeply peaceful voice. Speak slowly with intentional pauses between phrases." {"widget":"text_area"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Session Buttons"}'
+    - // @input SceneObject breathingButton
+    - // @input SceneObject acupressureButton
+    - '// @input bool startPracticeOnTap {"label":"Run On Tap"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Chakra Buttons"}'
+    - // @input SceneObject rootChakraButton
+    - // @input SceneObject sacralChakraButton
+    - // @input SceneObject solarPlexusChakraButton
+    - // @input SceneObject heartChakraButton
+    - // @input SceneObject throatChakraButton
+    - // @input SceneObject thirdEyeChakraButton
+    - // @input SceneObject crownChakraButton
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/73eaaa60-6ef1-cafb-48bb-e081ef503480>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d2332633-20c8-4530-8c6d-46f309433a83
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d2332633-20c8-4530-8c6d-46f309433a83
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 70863c2c-81df-4318-a415-a5a61679420c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/70863c2c-81df-4318-a415-a5a61679420c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e956f7ac-1316-4a87-94e7-3025ae922ef3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioTrack: false
+    idleSpeed: false
+    triggerDuration: false
+    triggerSpeed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - audioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      idleSpeed: 1.500000
+      triggerSpeed: !<float> 2.000000
+      triggerDuration: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}

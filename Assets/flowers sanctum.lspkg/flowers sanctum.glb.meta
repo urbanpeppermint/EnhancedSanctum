@@ -1,0 +1,306 @@
+- !<AssetImportMetadata/8456f392-a759-d458-2492-0ef3303c2ef7>
+  ImportedAssetIds:
+    .hidden/LotusFlower_Med_Mat: !<reference> 89288510-9655-486c-90c2-88bc4b469ef1
+    0d3c02eb2e2d4445: !<reference> 8eada392-f76b-4800-9c0d-db1e0fa8ed03
+    1b73adb0b7c87ef2: !<reference> 51e3c9e6-d061-4170-83cb-1a0aec86c05d
+    1f006d2f86fc1275: !<reference> 64292413-9e2c-4651-9ec9-3a255d9c21a3
+    274411cf0d57558f: !<reference> b7c145af-3b06-4f15-bc6a-1207a1611882
+    3161ab9651de7e96: !<reference> 0ebdb0ec-022c-4f20-895a-9f82191bac16
+    4a3e924fad0e2f27: !<reference> 28d8a701-f533-4b4c-aa70-4080d7b17924
+    625f4b32c61b951e: !<reference> 3d3c3b03-eb6a-45fc-bb49-9a83a099acd9
+    62d7f90c85fecff5: !<reference> 5f3835e4-fd25-4862-83a1-cffeadcb56d9
+    66780cf3a4dcb2b8: !<reference> c89229d5-4539-4549-8828-1d16631001f4
+    794f96dbbe52b735: !<reference> c2943989-5a9b-4008-ac47-0ed167bc1a16
+    7998f78ebdac8c0b: !<reference> 4a64493f-a0bc-430c-83b6-09c23246107e
+    96f664b015fcd573: !<reference> bc3fe777-470b-4947-ae79-a63cdb48a9fd
+    Materials/LotusFlower_Med_Mat: !<reference> bcc25c0f-31b3-45cc-a3f7-a85eee3729f2
+    Materials/LotusFlower_Med_Mat|LotusFlower_Med_Mat|GraphPassInfo: !<reference> e136ddaa-11be-46fe-a79b-cdecfa5ba042
+    Materials/LotusPad_01_Mat: !<reference> a864d5d4-7aa2-4568-90cb-697abd194286
+    Materials/LotusPad_01_Mat|LotusPad_01_Mat|GraphPassInfo: !<reference> 44124365-614d-4e65-9f70-20e9db4406ae
+    Meshes/LOD0_LotusFlower_Med_Mat_0.004: !<reference> 79d88ce6-d943-4587-91d5-dee38ff2c47b
+    Meshes/LOD0_LotusFlower_Med_Mat_0.005: !<reference> de30fcc8-88ce-4c93-8201-450a9f79ae7c
+    Meshes/LOD0_LotusPad_01_Mat_0: !<reference> 40e1decc-13fc-4785-8118-046619af6e98
+    Scene: !<reference> 8c9e00db-e66b-4ee9-8109-a115fe3975c3
+    Textures/Image_3: !<reference> 452a2d71-7907-4fbb-9932-aeebc8ef21f5
+    Textures/Image_4: !<reference> 610910b0-278e-4ef1-8eee-90f15dbab860
+    Textures/Image_4 3: !<reference> 31d71383-d383-43bd-88fd-81fa2454ebde
+    Textures/Image_5: !<reference> a980459b-e5c3-4be4-99d2-91c3e208e12e
+    Textures/Image_6: !<reference> fc156af8-93e1-421d-8465-1d44ed72b42a
+    Textures/Image_7: !<reference> e570525d-fe82-466d-9667-6a2e966be491
+    Textures/Image_7 3: !<reference> 5ec413cb-4c83-47fb-93c1-fe87cabf5504
+    Textures/Image_8: !<reference> 5b1b9a0e-06a3-455c-a6b8-09992419caee
+    c4233a4a346e3788: !<reference> c9d442ce-7998-418b-bbfe-c71b1731ee5c
+    d79b2b00d91e0ed7: !<reference> cf402471-ef34-4d8f-8850-ed6329b9ee31
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 8c9e00db-e66b-4ee9-8109-a115fe3975c3
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 88b5df9f-efa4-42a7-aa34-94e1e4f5e235
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/0ebdb0ec-022c-4f20-76a5-607de6e453e9>
+  PrefabRemaps:
+    []
+  Name: LOD0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cf402471-ef34-4d8f-77af-129cd64611ce
+    - !<own> 5f3835e4-fd25-4862-7c5e-30015234a926
+    - !<own> 4a64493f-a0bc-430c-7c49-f63dcdb9ef81
+  Components:
+    []
+- !<SceneObject/28d8a701-f533-4b4c-558f-bf7f284e86db>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bc3fe777-470b-4947-5186-59c324b75602
+  Components:
+    []
+- !<SceneObject/3d3c3b03-eb6a-45fc-44b6-657c5f665326>
+  PrefabRemaps:
+    []
+  Name: LotusFlower_Med
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0ebdb0ec-022c-4f20-76a5-607de6e453e9
+  Components:
+    []
+- !<SceneObject/4a64493f-a0bc-430c-7c49-f63dcdb9ef81>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusPad_01_Mat_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.770668, y: -0.418128, z: -0.048351}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 51e3c9e6-d061-4170-7c34-e5f513793fa2
+- !<RenderMeshVisual/51e3c9e6-d061-4170-7c34-e5f513793fa2>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusPad_01_Mat_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a864d5d4-7aa2-4568-90cb-697abd194286
+  Mesh: !<reference> 40e1decc-13fc-4785-8118-046619af6e98
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    "LeafBend ": 0.000000
+    LeafWave: 0.000000
+- !<SceneObject/5f3835e4-fd25-4862-7c5e-30015234a926>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusFlower_Med_Mat_0.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.682132, y: 1.784153, z: 0.317546}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.048135, y: 2.048135, z: 2.048135}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c2943989-5a9b-4008-53b8-f12e9843e5e9
+- !<SceneObject/64292413-9e2c-4651-6136-c5daa263de5c>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3d3c3b03-eb6a-45fc-44b6-657c5f665326
+  Components:
+    []
+- !<ObjectPrefabAssetData/88b5df9f-efa4-42a7-aa34-94e1e4f5e235>
+  Prototype: !<ObjectOwner/f1b99020-88f5-4eb2-bf94-a777c9a3f29b>
+    PackagePath: ""
+    objects:
+      - !<own> c89229d5-4539-4549-77d7-e2e99ceffe0b
+- !<RenderMeshVisual/8eada392-f76b-4800-63f2-24e1f05712fc>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusFlower_Med_Mat_0.004
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bcc25c0f-31b3-45cc-a3f7-a85eee3729f2
+  Mesh: !<reference> 79d88ce6-d943-4587-91d5-dee38ff2c47b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    LeafWave: 0.000000
+    LeafBend: 0.000000
+- !<SceneObject/b7c145af-3b06-4f15-4395-edf85e9ee77d>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -180.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c9d442ce-7998-418b-4401-38e4e8ce11a3
+  Components:
+    []
+- !<SceneObject/bc3fe777-470b-4947-5186-59c324b75602>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b7c145af-3b06-4f15-4395-edf85e9ee77d
+  Components:
+    []
+- !<RenderMeshVisual/c2943989-5a9b-4008-53b8-f12e9843e5e9>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusFlower_Med_Mat_0.005
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bcc25c0f-31b3-45cc-a3f7-a85eee3729f2
+  Mesh: !<reference> de30fcc8-88ce-4c93-8201-450a9f79ae7c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    PetalOpen: 0.000000
+    PetalWiggle: 1.000000
+    PetalCurl: 0.000000
+- !<SceneObject/c89229d5-4539-4549-77d7-e2e99ceffe0b>
+  PrefabRemaps:
+    []
+  Name: flowers sanctum
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 28d8a701-f533-4b4c-558f-bf7f284e86db
+  Components:
+    []
+- !<SceneObject/c9d442ce-7998-418b-4401-38e4e8ce11a3>
+  PrefabRemaps:
+    []
+  Name: LotusFlower_Med.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000023, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 64292413-9e2c-4651-6136-c5daa263de5c
+  Components:
+    []
+- !<SceneObject/cf402471-ef34-4d8f-77af-129cd64611ce>
+  PrefabRemaps:
+    []
+  Name: LOD0_LotusFlower_Med_Mat_0.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.884229, y: -1.062122, z: 0.154108}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8eada392-f76b-4800-63f2-24e1f05712fc
